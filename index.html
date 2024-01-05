@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="main.css">
     <title>Meet Chanchad</title>
     <link rel="icon" href="/assets/icon.png">
     <!-- Font Family -->
@@ -22,7 +23,7 @@
     <div class="container mx-auto px-3">
 
         <!-- Main Name -->
-        <div class="font-bold text-xl my-3 text-center"><a href="/index.html">Meet&#174;</a></div>
+        <div class="meet font-bold text-xl my-3 text-center"><a href="/index.html">Meet&#174;</a></div>
 
         <!-- Navigation Section  -->
         <nav>
@@ -49,11 +50,11 @@
 
             <div class="sm:flex sm:justify-between sm:flex-row sm:text-start flex flex-col justify-center text-center">
 
-                <div>
+                <div class="web-app-text">
                     <h1
                         class="xl:text-[200px] lg:text-[150px] md:text-[100px] sm:text-[75px] text-[50px] font-bold xl:leading-[15rem]">
-                        Websites &
-                        <br> Apps
+                        <span>Websites &</span>
+                        <br> <span>Apps</span>
                     </h1>
                 </div>
                 <div><button
@@ -65,12 +66,16 @@
 
             <div class="my-10 flex justify-between gap-5">
                 <div>
-                    <h1 class="font-semibold">Let's Talk</h1>
-                    <a href="mailto:meetchanchad07@gmail.com">meetchanchad07@gmail.com</a>
+                    <h1 class="letstalk-txt font-semibold">Let's Talk</h1>
+                    <a href="mailto:meetchanchad07@gmail.com" class="email-txt">meetchanchad07@gmail.com</a>
                 </div>
                 <div class=" sm:w-4/12">
-                    <p>Hey. I'm Meet. an online Websites & Apps maker, Entrepreneur & co-founder of
-                        iSkills.</p>
+                    <p class="about-txt"><span>Hey.</span> <span>I'm Meet.</span> <span>an
+                            online</span> <span>Websites</span> <span>&</span>
+                        <span>Apps</span> <span>maker,</span> <span>Entrepreneur</span>
+                        <span>&</span> <span>co-founder</span> <span>of</span>
+                        <span>iSkills.</span>
+                    </p>
                 </div>
             </div>
 
@@ -278,6 +283,10 @@
 
     </div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
